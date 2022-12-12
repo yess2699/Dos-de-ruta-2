@@ -26,28 +26,43 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page"                 href="index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="explorar.html">Explorar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
+
               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="albumes.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Albúmes</a>
+                <a class="nav-link dropdown-toggle" href="antioquia.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Antioquia</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="fotosrecientes.html">Fotos recientes</a></li>
-                  <li><a class="dropdown-item" href="fotospopulares.html">Fotos populares</a></li>
-                  <li><a class="dropdown-item" href="mapamundi.html">Mapamundi</a></li>
+                  <li><a class="dropdown-item" href="medellin.html">Medellín</a></li>
                 </ul>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Boyaca.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Boyacá</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="villadeleyva.html">Villa de Leyva</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Caldas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Caldas</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="manizales.html">Manizales</a></li>
+                </ul>
+                
+              </li>
+
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="Magdalena.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Magdalena</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="santamarta.html">Santa Marta</a></li>
+                </ul>
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
+
+
               <!-- enlaces a las redes -->
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
@@ -61,44 +76,71 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="email" placeholder="Email" aria-label="Suscripcion">
-              <button class="btn btn-outline-success" type="submit">Suscripción</button>
+              <button class="btn btn-outline-warning" type="submit">Suscribirme</button>
             </form>
           </div>
         </div>
       </nav>
+
       <!-- slider -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="/images/Villa de leyva foto portada.jpg" class="d-block w-100 slideimg" alt="...">
+            <img src="images/1x/Banner Mani.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Recorre nuestro país con nuestro blog</h5>
+              <p></p>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="/images/Villa de leyva foto portada.jpg" class="d-block w-100 slideimg" alt="...">
+            <img src="images/1x/Banner med.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Un albúm viajero para ti</h5>
+              <p></p>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="/images/Villa de leyva foto portada.jpg" class="d-block w-100 slideimg" alt="...">
+            <img src="images/1x/Banner San.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conoce Colombia en fotos</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/1x/Banner villa.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conoce Colombia en fotos</h5>
+              <p></p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+    
       <!--Actividad-->
       <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="colombia">
-              <h1 class="titulo">Colombia</h1>    
+              <h1 class="titulo" style="color: rgb(175, 75, 3);">Lugares</h1>    
           <div class="col">
             <div class="card">
                   <img src="images/Boya.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Boyacá</h5>
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary buy">Ver más</a>
+                     <p class="card-text">Departamento del centro de Colombia.</p>
+                    <a href="villadeleyva.html" class="btn btn-outline-warning buy">Ver más</a>
             </div>
           </div>
         </div>
@@ -107,8 +149,8 @@
                   <img src="images/Ant.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Antioquia</h5>
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary buy">Ver más</a>
+                     <p class="card-text">Departamento del suroeste de Colombia.</p>
+                    <a href="medellin.html" class="btn btn-outline-warning buy">Ver más</a>
             </div>
           </div>
         </div>
@@ -117,69 +159,60 @@
                   <img src="images/Mag.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Magdalena</h5>
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary buy">Ver más</a>
+                     <p class="card-text">Departamento del noreste de Colombia.</p>
+                    <a href="santamarta.html" class="btn btn-outline-warning buy">Ver más</a>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Tours -->
-      <section class="w-100">
-        <div class="row w-75 mx-auto" id="servicios-fila-1">
-          <div class="col-lg-6 col-md-12 col-sm-12 d-felx justify-content-star my-5 icono-wrap">
-            <img src="/images/Boya.jpg" alt="desarrollo" class="tours">
-            <div>
-              <h3 class="fs-5 mt-4 px-4 pb-1">Villa de Leyva</h3>
-              <p class="px-4">
-                Villa de leyva
-              </p>
-            </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/Medellin inicio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Medellín, Antioquia</h5>
+            <p class="card-text">Es el Museo con la mayor colección de artes decorativas de Medellín, un atractivo turístico significativo para los amantes de la cultura, el arte y la tradición.</p>
+            <p class="card-text"><small class="text-muted">Museo el castillo</small></p>
           </div>
-
-          <div class="col-lg-6 col-md-12 col-sm-12 d-felx justify-content-star my-5 icono-wrap">
-            <img src="/images/Boya.jpg" alt="desarrollo" class="tours">
-            <div>
-              <h3 class="fs-5 mt-4 px-4 pb-1">Conoce Villa de Leyva</h3>
-              <p class="px-4">
-                Villa de leyva
-              </p>
-            </div>
+        </div>
+        <div class="card">
+          <img src="images/Nobsa inicio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cuitiva, Boyacá</h5>
+            <p class="card-text">Uno de los pueblos mas bonitos de Boyacá, porque detrás de este lugar se esconden los paisajes andinos y las leyendas del mítico pueblo Muisca.</p>
+            <p class="card-text"><small class="text-muted">Pueblo Cuitiva, cerca de la laguna de Tota.</small></p>
           </div>
-
-          <div class="col-lg-6 col-md-12 col-sm-12 d-felx justify-content-star my-5 icono-wrap">
-            <img src="/images/Boya.jpg" alt="desarrollo" class="tours">
-            <div>
-              <h3 class="fs-5 mt-4 px-4 pb-1">Conoce Villa de Leyva</h3>
-              <p class="px-4">
-                Villa de leyva
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12 col-sm-12 d-felx justify-content-star my-5 icono-wrap">
-            <img src="/images/Boya.jpg" alt="desarrollo" class="tours">
-            <div>
-              <h3 class="fs-5 mt-4 px-4 pb-1">Conoce Villa de Leyva</h3>
-              <p class="px-4">
-                Villa de leyva
-              </p>
-            </div>
+        </div>
+        <div class="card">
+          <img src="images/Santa marta inicio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Santa Marta, Magdalena</h5>
+            <p class="card-text">En el centro de Santa Marta realizas un viaje en el tiempo en la ciudad mas antigua de Colombia, edificios coloniales y colleciones de oro. </p>
+            <p class="card-text"><small class="text-muted">Centro histórico de Santa Marta</small></p>
           </div>
 
         </div>
-      </section>
+        <div class="card">
+          <img src="images/fotos.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Parque Nacional Natural los Nevados</h5>
+            <p class="card-text">Ubicado en la región cafetera de los Andes, conocido por los volcanes nevados, glaciares, lagos y bosques. </p>
+            <p class="card-text"><small class="text-muted">Parque Nacional en Murillo, Tolima</small></p>
+          </div>
+        </div>
+      </div>
+
+
+      <br>
+      <br>
+     
+
+
+    
 
       <!-- footer en M. BEM -->
       <footer id="page-footer">
-        <div class="footer__cta">
-          <div class="footer__cta-ftcontainer">
-            <h2 class="cta__txt">Información</h2>
-            <div class="cta__ftrow">
-              <a href="https://wa.me/3148313111" class="cta__btn" target="_blank">
-                <i class="fa fa-whatsapp"></i>
-              </a>
-            </div>
           </div>
         </div>
         <div class="ftcontainer">
@@ -196,9 +229,9 @@
           </div>
             <!-- horarios -->
             <div class="footer__menu">
-               <h4 class="footer__title">Horario </h4>
+               <h4 class="footer__title"></h4>
                <span class="footer__info">
-                Lunes a viernes: 8:00 a 5:00pm | Sábados: 9:00am a 4:00pm
+                
             </span>
           </div>
             <!-- enlaces -->
@@ -206,19 +239,16 @@
                 <h4 class="footer__title">Enlaces</h4>
                 <ul class="ft-link">
                 <li class="footer__link">
-                  <a href="nosotros.html" target="_blank"> Nosotros</a>
+                  <a href="medellin.html" target="_blank"> Medellín</a>
                 </li>
                 <li class="footer__link">
-                  <a href="fotospopulares.html" target="_blank">Fotos populares</a>
+                  <a href="villadeleyva.html" target="_blank">Villa de leyva</a>
                 </li>
                 <li class="footer__link">
-                  <a href="fotosrecientes.html" target="_blank">Fotos recientes</a>
+                  <a href="manizales.html" target="_blank">Manizales</a>
                 </li>
                 <li class="footer__link">
-                  <a href="blog.html" target="_blank">Blog</a>
-                </li>
-                <li class="footer__link">
-                  <a href="terminosycondiciones.html" target="_blank">Términos y condiciones</a>
+                  <a href="santamarta.html" target="_blank">Santa Marta</a>
                 </li>
             </ul>
         </div>
@@ -252,7 +282,7 @@
 
 
 
-         2:37
+    
 
       
 
@@ -264,11 +294,14 @@
     
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/ bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/ bootstrap.min.js"
+          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+          crossorigin="anonymous"></script>
 </body>
 </html>
